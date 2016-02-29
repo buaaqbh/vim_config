@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/bqin/work/st-linux/build/build/sdk2-build-master'
+let g:netrw_dirhist_2='/home/bqin/work/st-linux/build/build/build-armv7/test_utils/src/applications/hdmi_test'
+let g:netrw_dirhist_3='/home/bqin/work/ti/l138_mcsdk/mcsdk_1_01_00_02/host-tools/OMAP-L138_FlashAndBootUtils_2.40/OMAP-L138/GNU/Common'
+let g:netrw_dirhist_4='/home/bqin/work/dsbr2/AvCtrlApp'
+let g:netrw_dirhist_5='/home/bqin/work/ti/dolby_bsp/linux-03-22-soundbar-dolby/drivers'
+let g:netrw_dirhist_6='/home/bqin/work/dsbr2/AvCtrlApp'
