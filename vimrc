@@ -15,6 +15,13 @@ set softtabstop=4
 set incsearch              " 查询时非常方便，如要查找book单词，当输入到/b时，会自动找到  
 set hlsearch
 
+set undofile                " Save undo's after file closes
+set undodir=$HOME/.vim/undo " where to save undo histories
+set undolevels=1000         " How many undos
+set undoreload=10000        " number of lines to save for undo
+
+"set mouse=n
+
 nmap lb 0
 nmap le $
 
@@ -66,7 +73,7 @@ let g:miniBufExplMoreThanOne=0
 let g:winManagerWidth = 30
 
 let g:NERDTree_title="[NERDTree]"  
-let g:winManagerWindowLayout="NERDTree|TagList"  
+let g:winManagerWindowLayout="NERDTree"
       
 function! NERDTree_Start()  
     exec 'NERDTree'  
